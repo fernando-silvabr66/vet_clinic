@@ -138,6 +138,10 @@ GROUP BY o.full_name
 ORDER BY COUNT(a.owner_id) DESC
 LIMIT 1;
 
+/* Day 4 - work - (UNFORTUNATELY) was included in Day 3 work. */
+/* |  |  |  |  |  |  |  |  |  |  |  |  |  |   */
+/* V  V  V  V  V  V  V  V  V  V  V  V  V  V   */
+
 -- Who was the last animal seen by William Tatcher?
 SELECT a.name FROM animals a
 JOIN visits v ON a.id = v.animals_id
